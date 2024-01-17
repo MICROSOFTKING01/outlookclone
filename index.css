@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(120deg,#dec6def2,#c0d9d9);
+}
+
+.contaner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: aliceblue;
+  position: absolute;
+  box-shadow: #858185f2;
+  width: 375px;
+  
+  
+}
+.contaner-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contaner h1{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(62, 59, 59) ;
+  font-weight: 570;
+}
+.form-input{
+  width: 250px;
+  height: 25px;
+  margin: 15px;
+  border-top: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(87, 87, 136);
+  border-left: none;
+  border-right: none;
+  
+
+}
+
+.form-input-group{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form-text{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo-img img{
+  height: 50px;
+  margin-left: 65px;
+
+}
+.form-link{
+  color: #005DA6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+.outlook{
+  text-align: center;
+  font-size: 50;
+  
+}
+.cot{
+  text-align: center;
+  color: rgb(90, 89, 89);
+  font-weight: 100;
+}
+.submt{
+  width: 100px;
+  height: 30px;
+  background-color: #1b70a8;
+  color: white;
+  margin-left:87px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: weight 700px;
+
+
+}
+.submt:hover{
+  transform: scale(0.7);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  color: whitesmoke;
+  
+
+}
+  
+
+
+
+  
+
